@@ -1,4 +1,4 @@
-# 🛡️ BankGuard AI: AI-Powered Banking Fraud Detection & Transaction Analytics Platform
+#  BankGuard AI: AI-Powered Banking Fraud Detection & Transaction Analytics Platform
 
 ![BankGuard AI Banner](https://img.shields.io/badge/BankGuard%20AI-v1.0.0-00D4AA?style=for-the-badge&logo=shield&logoColor=white)
 ![Python Version](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-1B2A4A?style=for-the-badge&logo=python)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Executive Summary & Problem Statement
+##  Executive Summary & Problem Statement
 
 Financial institutions handle millions of digital transactions per day. Fraudulent transactions constitute a very small percentage (typically < 0.2%) of overall volume, but represent billions of dollars in enterprise losses, regulatory exposure, and customer distress.
 
@@ -24,7 +24,7 @@ Traditional rule-based fraud detection engines struggle with:
 
 ---
 
-## 🏛️ System Architecture
+##  System Architecture
 
 ```
                                   USER (Browser)
@@ -58,7 +58,7 @@ Traditional rule-based fraud detection engines struggle with:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Executive Analytics Dashboard**: Real-time KPI metric cards (Total Volume, Fraud Incidence %, High Risk Exposure) alongside Plotly charts (Class distribution donut, Amount density histogram, Temporal velocity curves).
 - **Interactive Transaction Explorer**: Live transaction ledger with instant multi-facet filtering by transaction ID, fraud state, risk level, and ticket amount range with 1-click CSV export.
@@ -69,7 +69,7 @@ Traditional rule-based fraud detection engines struggle with:
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -83,7 +83,7 @@ Traditional rule-based fraud detection engines struggle with:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 BankGuard-AI/
@@ -148,7 +148,7 @@ BankGuard-AI/
 
 ---
 
-## ⚡ Quick Start Guide (Windows Laptop)
+##  Quick Start Guide (Windows Laptop)
 
 ### 1. Clone or Open Workspace
 Open your terminal (PowerShell or Command Prompt) and navigate to the project directory:
@@ -170,7 +170,7 @@ python -m streamlit run app.py
 
 ---
 
-## 📊 Dataset Instructions
+##  Dataset Instructions
 
 ### Option A: Public Kaggle Dataset (Recommended for Full Evaluation)
 1. Download the **Credit Card Fraud Detection Dataset** from Kaggle:
@@ -186,7 +186,7 @@ If you don't have the Kaggle dataset downloaded yet, BankGuard AI features an in
 
 ---
 
-## 🧠 Machine Learning Methodology
+##  Machine Learning Methodology
 
 ### 1. Data Leakage Prevention & Stratification
 - Fraud events represent a small fraction of transactions. A naive random split would leave the test fold with too few or zero fraud cases.
@@ -206,7 +206,7 @@ Evaluated on:
 
 ---
 
-## 🧪 Running Unit Tests
+##  Running Unit Tests
 
 Run the full automated test suite:
 ```powershell
@@ -217,14 +217,14 @@ All tests execute in milliseconds using temporary in-memory fixtures to prevent 
 
 ---
 
-## 🔒 Security & Data Privacy Notice
+## Security & Data Privacy Notice
 
 > [!IMPORTANT]
 > **Disclaimer**: This application is built for research, academic demonstration, and interview evaluation. The public dataset consists of anonymized PCA-transformed numerical features (`V1`–`V28`) from European cardholders. **No live, private, or actual customer data from IndusInd Bank is used, stored, or accessed.**
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 1. **Streaming Anomaly Detection**: Integration with Apache Kafka or RabbitMQ for real-time WebSocket transaction scoring.
 2. **Explainable AI (XAI)**: Integration of TreeSHAP to provide localized feature explanation waterfalls per flagged transaction.
